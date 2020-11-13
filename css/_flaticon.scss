@@ -1,0 +1,70 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 10/11/2020 22:04
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-sandwich:before { content: "\f100"; }
+.flaticon-burger:before { content: "\f101"; }
+.flaticon-taco:before { content: "\f102"; }
+.flaticon-tapas:before { content: "\f103"; }
+.flaticon-sandwich-1:before { content: "\f104"; }
+.flaticon-lemonade:before { content: "\f105"; }
+.flaticon-fast-food:before { content: "\f106"; }
+.flaticon-cupcake:before { content: "\f107"; }
+.flaticon-dish:before { content: "\f108"; }
+.flaticon-canape:before { content: "\f109"; }
+.flaticon-kebab:before { content: "\f10a"; }
+.flaticon-kebab-1:before { content: "\f10b"; }
+.flaticon-doner-kebab:before { content: "\f10c"; }
+.flaticon-kebab-roll:before { content: "\f10d"; }
+.flaticon-kebab-2:before { content: "\f10e"; }
+    
+    $font-Flaticon-sandwich: "\f100";
+    $font-Flaticon-burger: "\f101";
+    $font-Flaticon-taco: "\f102";
+    $font-Flaticon-tapas: "\f103";
+    $font-Flaticon-sandwich-1: "\f104";
+    $font-Flaticon-lemonade: "\f105";
+    $font-Flaticon-fast-food: "\f106";
+    $font-Flaticon-cupcake: "\f107";
+    $font-Flaticon-dish: "\f108";
+    $font-Flaticon-canape: "\f109";
+    $font-Flaticon-kebab: "\f10a";
+    $font-Flaticon-kebab-1: "\f10b";
+    $font-Flaticon-doner-kebab: "\f10c";
+    $font-Flaticon-kebab-roll: "\f10d";
+    $font-Flaticon-kebab-2: "\f10e";

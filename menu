@@ -1,0 +1,705 @@
+
+    <div id="menu" class="menu-main pad-top-100 pad-bottom-100">
+      <div class=" container">
+          <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                  <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                      <h2 class="block-title text-center">
+                    Découvrez notre Carte 	
+                  </h2>
+                      <p class="title-caption text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                  </div>
+                  <div class="tab-menu" >
+                    
+                      <div class="slider slider-nav ">
+
+                        <div class="tab-title-menu">
+                          <h2>Tapas</h2>
+                          <p> <i class="flaticon-coffee"></i> </p>
+                      </div> 
+                          <div class="tab-title-menu">
+                              <h2>Assiette</h2>
+                              <p> <i class="flaticon-canape"></i> </p>
+                          </div>
+                          <div class="tab-title-menu">
+                              <h2>Tacos</h2>
+                              <p> <i class="flaticon-dinner"></i> </p>
+                          </div>
+                          <div class="tab-title-menu">
+                              <h2>Hamburger</h2>
+                              <p> <i class="flaticon-desert"></i> </p>
+                          </div>
+                          <div class="tab-title-menu">
+                            <h2>Nan</h2>
+                            <p> <i class="flaticon-coffee"></i> </p>
+                        </div> 
+                          <div class="tab-title-menu">
+                              <h2>Paninis</h2>
+                              <p> <i class="flaticon-coffee"></i> </p>
+                          </div> 
+
+                          <div class="tab-title-menu">
+                            <h2>Sandwich</h2>
+                            <p> <i class="flaticon-coffee"></i> </p>
+                        </div> 
+                        <div class="tab-title-menu">
+                          <h2>Menu Enfant</h2>
+                          <p> <i class="flaticon-coffee"></i> </p>
+                      </div> 
+                      <div class="tab-title-menu">
+                        <h2>Desserts</h2>
+                        <p> <i class="flaticon-coffee"></i> </p>
+                    </div> 
+                    <div class="tab-title-menu">
+                      <h2>Boissons</h2>
+                      <p> <i class="flaticon-coffee"></i> </p>
+                  </div> 
+
+                 
+                          
+                          
+                      </div>
+                      
+                      <div class="slider slider-single">
+                          
+                          <div>
+                              <div class=" col-md-4 col-sm-4 col-sm-6 col-xs-6 ">
+                                        <div class="card">
+                                           <div class="card__image">
+                                              <img src="images/kebab2.jpg" alt="Salad" />
+                                           </div>
+                                           <div class="card__info">
+                                              <div class="car__info--title">
+                                                <span class="badget-info">30<span>min</span></span>
+                                                 <h3>Salad</h3>
+                                                 <p>Fresh & sweet</p>
+                                              </div>
+                                              <div class="card__info--price">
+                                                 <p> 5€</p>
+                                                 <span class="fa fa-star checked"></span>
+                                                 <span class="fa fa-star checked"></span>
+                                                 <span class="fa fa-star checked"></span>
+                                                 <span class="fa fa-star checked"></span>
+                                                 <span class="fa fa-star checked"></span>
+                                              </div>
+                                           </div>
+                                           <button class="snipcart-add-item btn btn-sm btn-primary"
+                                            data-item-id="starry-night"
+                                            data-item-price="79.99"
+                                            data-item-url="/paintings/starry-night"
+                                            data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                                            data-item-image="/assets/images/starry-night.jpg"
+                                            data-item-name="The Starry Night">
+                                            Add to cart
+                                          </button>
+                                        </div>
+                                </div>
+
+
+                                  <div class=" col-md-4 col-sm-4  col-sm-6 col-xs-6 ">
+                                          <div class="card">
+                                            <div class="card__image">
+                                                <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Salad" />
+                                            </div>
+                                            <div class="card__info">
+                                                <div class="car__info--title">
+                                                  <span class="badget-info">30<span>min</span></span>
+                                                  <h3>Salad</h3>
+                                                  <p>Fresh & sweet</p>
+                                                </div>
+                                                <div class="card__info--price">
+                                                  <p>$ 5</p>
+                                                  <span class="fa fa-star checked"></span>
+                                                  <span class="fa fa-star checked"></span>
+                                                  <span class="fa fa-star checked"></span>
+                                                  <span class="fa fa-star checked"></span>
+                                                  <span class="fa fa-star checked"></span>
+                                                </div>
+                                            </div>
+                                            <button class="snipcart-add-item btn btn-sm btn-primary"
+                                              data-item-id="starry-night"
+                                              data-item-price="79.99"
+                                              data-item-url="/paintings/starry-night"
+                                              data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                                              data-item-image="/assets/images/starry-night.jpg"
+                                              data-item-name="The Starry Night">
+                                              Add to cart
+                                            </button>
+                                          </div>
+                                  </div>
+
+                                  <div class=" col-md-4 col-sm-4 col-sm-6 col-xs-6 ">
+                                    <div class="card">
+                                      <div class="card__image">
+                                          <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Salad" />
+                                      </div>
+                                      <div class="card__info">
+                                          <div class="car__info--title">
+                                            <span class="badget-info">30<span>min</span></span>
+                                            <h3>Salad</h3>
+                                            <p>Fresh & sweet</p>
+                                          </div>
+                                          <div class="card__info--price">
+                                            <p>$ 5</p>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                          </div>
+                                      </div>
+                                      <button class="snipcart-add-item btn btn-sm btn-primary"
+                                        data-item-id="starry-night"
+                                        data-item-price="79.99"
+                                        data-item-url="/paintings/starry-night"
+                                        data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                                        data-item-image="/assets/images/starry-night.jpg"
+                                        data-item-name="The Starry Night">
+                                        Add to cart
+                                      </button>
+                                    </div>
+                            </div>
+
+                            <div class=" col-md-4 col-sm-4 ">
+                              <div class="card">
+                                <div class="card__image">
+                                    <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Salad" />
+                                </div>
+                                <div class="card__info">
+                                    <div class="car__info--title">
+                                      <span class="badget-info">30<span>min</span></span>
+                                      <h3>Salad</h3>
+                                      <p>Fresh & sweet</p>
+                                    </div>
+                                    <div class="card__info--price">
+                                      <p>$ 5</p>
+                                      <span class="fa fa-star checked"></span>
+                                      <span class="fa fa-star checked"></span>
+                                      <span class="fa fa-star checked"></span>
+                                      <span class="fa fa-star checked"></span>
+                                      <span class="fa fa-star checked"></span>
+                                    </div>
+                                </div>
+                                <button class="snipcart-add-item btn btn-sm btn-primary"
+                                  data-item-id="starry-night"
+                                  data-item-price="79.99"
+                                  data-item-url="/paintings/starry-night"
+                                  data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                                  data-item-image="/assets/images/starry-night.jpg"
+                                  data-item-name="The Starry Night">
+                                  Add to cart
+                                </button>
+                              </div>
+                      </div>
+
+                      
+
+
+                      <div class=" col-md-4 col-sm-4 ">
+                        <div class="card" >
+                          <div class="card__image">
+                              <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Salad" />
+                          </div>
+                          <div class="card__info">
+                              <div class="car__info--title">
+                                <span class="badget-info">30<span>min</span></span>
+                                <h3>Salad</h3>
+                                <p>Fresh & sweet</p>
+                              </div>
+                              <div class="card__info--price">
+                                <p>$ 5</p>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                              </div>
+                          </div>
+                          <button class="snipcart-add-item btn btn-sm btn-primary"
+                            data-item-id="starry-night"
+                            data-item-price="79.99"
+                            data-item-url="/paintings/starry-night"
+                            data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                            data-item-image="/assets/images/starry-night.jpg"
+                            data-item-name="The Starry Night">
+                            Add to cart
+                          </button>
+                        </div>
+                </div>
+                     <!-- end col -->
+                          </div>
+
+                          
+                          <div>
+                            <div class=" col-md-4 col-sm-4 ">
+                              <div class="card">
+                                 <div class="card__image">
+                                    <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Salad" />
+                                 </div>
+                                 <div class="card__info">
+                                    <div class="car__info--title">
+                                      <span class="badget-info">30<span>min</span></span>
+                                       <h3>Salad</h3>
+                                       <p>Fresh & sweet</p>
+                                    </div>
+                                    <div class="card__info--price">
+                                       <p>$ 5</p>
+                                       <span class="fa fa-star checked"></span>
+                                       <span class="fa fa-star checked"></span>
+                                       <span class="fa fa-star checked"></span>
+                                       <span class="fa fa-star checked"></span>
+                                       <span class="fa fa-star checked"></span>
+                                    </div>
+                                 </div>
+                                 <button class="snipcart-add-item btn btn-sm btn-primary"
+                                  data-item-id="starry-night"
+                                  data-item-price="79.99"
+                                  data-item-url="/paintings/starry-night"
+                                  data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                                  data-item-image="/assets/images/starry-night.jpg"
+                                  data-item-name="The Starry Night">
+                                  Add to cart
+                                </button>
+                              </div>
+                      </div>
+
+
+                        <div class=" col-md-4 col-sm-4 ">
+                                <div class="card">
+                                  <div class="card__image">
+                                      <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Salad" />
+                                  </div>
+                                  <div class="card__info">
+                                      <div class="car__info--title">
+                                        <span class="badget-info">30<span>min</span></span>
+                                        <h3>Salad</h3>
+                                        <p>Fresh & sweet</p>
+                                      </div>
+                                      <div class="card__info--price">
+                                        <p>$ 5</p>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                      </div>
+                                  </div>
+                                  <button class="snipcart-add-item btn btn-sm btn-primary"
+                                    data-item-id="starry-night"
+                                    data-item-price="79.99"
+                                    data-item-url="/paintings/starry-night"
+                                    data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                                    data-item-image="/assets/images/starry-night.jpg"
+                                    data-item-name="The Starry Night">
+                                    Add to cart
+                                  </button>
+                                </div>
+                        </div>
+
+                        <div class=" col-md-4 col-sm-4 ">
+                          <div class="card">
+                            <div class="card__image">
+                                <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Salad" />
+                            </div>
+                            <div class="card__info">
+                                <div class="car__info--title">
+                                  <span class="badget-info">30<span>min</span></span>
+                                  <h3>Salad</h3>
+                                  <p>Fresh & sweet</p>
+                                </div>
+                                <div class="card__info--price">
+                                  <p>$ 5</p>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                </div>
+                            </div>
+                            <button class="snipcart-add-item btn btn-sm btn-primary"
+                              data-item-id="starry-night"
+                              data-item-price="79.99"
+                              data-item-url="/paintings/starry-night"
+                              data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                              data-item-image="/assets/images/starry-night.jpg"
+                              data-item-name="The Starry Night">
+                              Add to cart
+                            </button>
+                          </div>
+                  </div>
+
+                  <div class=" col-md-4 col-sm-4 ">
+                    <div class="card">
+                      <div class="card__image">
+                          <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Salad" />
+                      </div>
+                      <div class="card__info">
+                          <div class="car__info--title">
+                            <span class="badget-info">30<span>min</span></span>
+                            <h3>Salad</h3>
+                            <p>Fresh & sweet</p>
+                          </div>
+                          <div class="card__info--price">
+                            <p>$ 5</p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                          </div>
+                      </div>
+                      <button class="snipcart-add-item btn btn-sm btn-primary"
+                        data-item-id="starry-night"
+                        data-item-price="79.99"
+                        data-item-url="/paintings/starry-night"
+                        data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                        data-item-image="/assets/images/starry-night.jpg"
+                        data-item-name="The Starry Night">
+                        Add to cart
+                      </button>
+                    </div>
+            </div>
+
+            <div class=" col-md-4 col-sm-4 ">
+              <div class="card">
+                <div class="card__image">
+                    <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Salad" />
+                </div>
+                <div class="card__info">
+                    <div class="car__info--title">
+                      <span class="badget-info">30<span>min</span></span>
+                      <h3>Salad</h3>
+                      <p>Fresh & sweet</p>
+                    </div>
+                    <div class="card__info--price">
+                      <p>$ 5</p>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+                <button class="snipcart-add-item btn btn-sm btn-primary"
+                  data-item-id="starry-night"
+                  data-item-price="79.99"
+                  data-item-url="/paintings/starry-night"
+                  data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                  data-item-image="/assets/images/starry-night.jpg"
+                  data-item-name="The Starry Night">
+                  Add to cart
+                </button>
+              </div>
+      </div>
+
+      <!-- end -->
+                          </div>
+
+
+                          <div>
+                            <div class=" col-md-4 col-sm-4 ">
+                              <div class="card">
+                                <div class="card__image">
+                                    <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Salad" />
+                                </div>
+                                <div class="card__info">
+                                    <div class="car__info--title">
+                                      <span class="badget-info">30<span>min</span></span>
+                                      <h3>Salad</h3>
+                                      <p>Fresh & sweet</p>
+                                    </div>
+                                    <div class="card__info--price">
+                                      <p>$ 5</p>
+                                      <span class="fa fa-star checked"></span>
+                                      <span class="fa fa-star checked"></span>
+                                      <span class="fa fa-star checked"></span>
+                                      <span class="fa fa-star checked"></span>
+                                      <span class="fa fa-star checked"></span>
+                                    </div>
+                                </div>
+                                <button class="snipcart-add-item btn btn-sm btn-primary"
+                                  data-item-id="starry-night"
+                                  data-item-price="79.99"
+                                  data-item-url="/paintings/starry-night"
+                                  data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                                  data-item-image="/assets/images/starry-night.jpg"
+                                  data-item-name="The Starry Night">
+                                  Add to cart
+                                </button>
+                              </div>
+                      </div>
+                              <!-- end col -->
+                              <div class=" col-md-4 col-sm-4 ">
+                                <div class="card">
+                                  <div class="card__image">
+                                      <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Salad" />
+                                  </div>
+                                  <div class="card__info">
+                                      <div class="car__info--title">
+                                        <span class="badget-info">30<span>min</span></span>
+                                        <h3>Salad</h3>
+                                        <p>Fresh & sweet</p>
+                                      </div>
+                                      <div class="card__info--price">
+                                        <p>$ 5</p>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                      </div>
+                                  </div>
+                                  <button class="snipcart-add-item btn btn-sm btn-primary"
+                                    data-item-id="starry-night"
+                                    data-item-price="79.99"
+                                    data-item-url="/paintings/starry-night"
+                                    data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                                    data-item-image="/assets/images/starry-night.jpg"
+                                    data-item-name="The Starry Night">
+                                    Add to cart
+                                  </button>
+                                </div>
+                        </div>
+                              <!-- end col -->
+                              <div class=" col-md-4 col-sm-4 ">
+                                <div class="card">
+                                  <div class="card__image">
+                                      <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Salad" />
+                                  </div>
+                                  <div class="card__info">
+                                      <div class="car__info--title">
+                                        <span class="badget-info">30<span>min</span></span>
+                                        <h3>Salad</h3>
+                                        <p>Fresh & sweet</p>
+                                      </div>
+                                      <div class="card__info--price">
+                                        <p>$ 5</p>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                      </div>
+                                  </div>
+                                  <button class="snipcart-add-item btn btn-sm btn-primary"
+                                    data-item-id="starry-night"
+                                    data-item-price="79.99"
+                                    data-item-url="/paintings/starry-night"
+                                    data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                                    data-item-image="/assets/images/starry-night.jpg"
+                                    data-item-name="The Starry Night">
+                                    Add to cart
+                                  </button>
+                                </div>
+                        </div>
+                              <!-- end col -->
+                          </div>
+                          <div>
+                            <div class=" col-md-4 col-sm-4 ">
+                              <div class="card">
+                                <div class="card__image">
+                                    <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Salad" />
+                                </div>
+                                <div class="card__info">
+                                    <div class="car__info--title">
+                                      <span class="badget-info">30<span>min</span></span>
+                                      <h3>Salad</h3>
+                                      <p>Fresh & sweet</p>
+                                    </div>
+                                    <div class="card__info--price">
+                                      <p>$ 5</p>
+                                      <span class="fa fa-star checked"></span>
+                                      <span class="fa fa-star checked"></span>
+                                      <span class="fa fa-star checked"></span>
+                                      <span class="fa fa-star checked"></span>
+                                      <span class="fa fa-star checked"></span>
+                                    </div>
+                                </div>
+                                <button class="snipcart-add-item btn btn-sm btn-primary"
+                                  data-item-id="starry-night"
+                                  data-item-price="79.99"
+                                  data-item-url="/paintings/starry-night"
+                                  data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                                  data-item-image="/assets/images/starry-night.jpg"
+                                  data-item-name="The Starry Night">
+                                  Add to cart
+                                </button>
+                              </div>
+                      </div>
+                              <!-- end col -->
+                              <div class=" col-md-4 col-sm-4 ">
+                                <div class="card">
+                                  <div class="card__image">
+                                      <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Salad" />
+                                  </div>
+                                  <div class="card__info">
+                                      <div class="car__info--title">
+                                        <span class="badget-info">30<span>min</span></span>
+                                        <h3>Salad</h3>
+                                        <p>Fresh & sweet</p>
+                                      </div>
+                                      <div class="card__info--price">
+                                        <p>$ 5</p>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                      </div>
+                                  </div>
+                                  <button class="snipcart-add-item btn btn-sm btn-primary"
+                                    data-item-id="starry-night"
+                                    data-item-price="79.99"
+                                    data-item-url="/paintings/starry-night"
+                                    data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                                    data-item-image="/assets/images/starry-night.jpg"
+                                    data-item-name="The Starry Night">
+                                    Add to cart
+                                  </button>
+                                </div>
+                        </div>
+                              <!-- end col -->
+                              <div class=" col-md-4 col-sm-4 ">
+                                <div class="card">
+                                  <div class="card__image">
+                                      <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Salad" />
+                                  </div>
+                                  <div class="card__info">
+                                      <div class="car__info--title">
+                                        <span class="badget-info">30<span>min</span></span>
+                                        <h3>Salad</h3>
+                                        <p>Fresh & sweet</p>
+                                      </div>
+                                      <div class="card__info--price">
+                                        <p>$ 5</p>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                      </div>
+                                  </div>
+                                  <button class=" buy-button snipcart-add-item btn btn-sm btn-primary "
+                                    data-item-id="starry-night"
+                                    data-item-price="79.99"
+                                    data-item-url="/paintings/starry-night"
+                                    data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                                    data-item-image="/assets/images/starry-night.jpg"
+                                    data-item-name="The Starry Night">
+                                    Add to cart
+                                  </button>
+                                </div>
+                        </div>
+                              <!-- end col -->
+                          </div>
+
+                          <div>
+                            <div class=" col-md-4 col-sm-4 ">
+                              <div class="card">
+                                <div class="card__image">
+                                    <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Salad" />
+                                </div>
+                                <div class="card__info">
+                                    <div class="car__info--title">
+                                      <span class="badget-info">30<span>min</span></span>
+                                      <h3>Salad</h3>
+                                      <p>Fresh & sweet</p>
+                                    </div>
+                                    <div class="card__info--price">
+                                      <p>$ 5</p>
+                                      <span class="fa fa-star checked"></span>
+                                      <span class="fa fa-star checked"></span>
+                                      <span class="fa fa-star checked"></span>
+                                      <span class="fa fa-star checked"></span>
+                                      <span class="fa fa-star checked"></span>
+                                    </div>
+                                </div>
+                                <button class="snipcart-add-item btn btn-sm btn-primary"
+                                  data-item-id="starry-night"
+                                  data-item-price="79.99"
+                                  data-item-url="/paintings/starry-night"
+                                  data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                                  data-item-image="/assets/images/starry-night.jpg"
+                                  data-item-name="The Starry Night">
+                                  Add to cart
+                                </button>
+                              </div>
+                      </div>
+                              <!-- end col -->
+                              <div class=" col-md-4 col-sm-4 ">
+                                <div class="card">
+                                  <div class="card__image">
+                                      <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Salad" />
+                                  </div>
+                                  <div class="card__info">
+                                      <div class="car__info--title">
+                                        <span class="badget-info">30<span>min</span></span>
+                                        <h3>Salad</h3>
+                                        <p>Fresh & sweet</p>
+                                      </div>
+                                      <div class="card__info--price">
+                                        <p>$ 5</p>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                      </div>
+                                  </div>
+                                  <button class="snipcart-add-item btn btn-sm btn-primary"
+                                    data-item-id="starry-night"
+                                    data-item-price="79.99"
+                                    data-item-url="/paintings/starry-night"
+                                    data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                                    data-item-image="/assets/images/starry-night.jpg"
+                                    data-item-name="The Starry Night">
+                                    Add to cart
+                                  </button>
+                                </div>
+                        </div>
+                              <!-- end col -->
+                              <div class=" col-md-4 col-sm-4 ">
+                                <div class="card">
+                                  <div class="card__image">
+                                      <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Salad" />
+                                  </div>
+                                  <div class="card__info">
+                                      <div class="car__info--title">
+                                        <span class="badget-info">30<span>min</span></span>
+                                        <h3>Salad</h3>
+                                        <p>Fresh & sweet</p>
+                                      </div>
+                                      <div class="card__info--price">
+                                        <p>$ 5</p>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                      </div>
+                                  </div>
+                                  <button class=" buy-button snipcart-add-item btn btn-sm btn-primary "
+                                    data-item-id="starry-night"
+                                    data-item-price="79.99"
+                                    data-item-url="/paintings/starry-night"
+                                    data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                                    data-item-image="/assets/images/starry-night.jpg"
+                                    data-item-name="The Starry Night">
+                                    Add to cart
+                                  </button>
+                                </div>
+                        </div>
+                              <!-- end col -->
+                          </div>
+                      </div>
+                  </div>
+                  <!-- end tab-menu -->
+              </div>
+              <!-- end col -->
+          </div>
+          <!-- end row -->
+      </div>
+      <!-- end container -->
+  </div>
+    <!-- end menu -->
+
