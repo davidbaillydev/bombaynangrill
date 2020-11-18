@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang=fr>
+
+<head>
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+
+    <!-- Site Metas -->
+    <title>Bombay Nan Grill - One page HTML Responsive</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+   
+   <link rel="stylesheet" href="/css/menu.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="/css/responsive.css">
+    <!-- color -->
+    <link id="changeable-colors" rel="stylesheet" href="/css/colors/orange.css" />
+
+    <!-- Modernizer -->
+    <script src="/js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- Snipcart stylesheet -->
+  <link rel="preconnect" href="https://app.snipcart.com">
+<link rel="preconnect" href="https://cdn.snipcart.com">
+
+
+<link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.25/default/snipcart.css" />
+
+
+
+</head>
+
+<body>
+    <div id="loader">
+        <div id="status"></div>
+    </div>
+    <div id="site-header">
+        <header id="header" class="header-block-top">
+            <div class="container">
+                <div class="row">
+                    <div class="main-menu">
+                        <!-- navbar -->
+                        <div hidden id="snipcart" data-api-key="ZTlmZDg0MGQtZDQ3YS00ODQzLWI4MGMtMmViZWJlNDgyZDVlNjM3Mzc1OTU1MTM0MzQ0MDgy" data-currency="eur">
+                            <address-fields section="top">
+                                <div>
+                                    <snipcart-label for="phone">
+                                        Phone numbers
+                                    </snipcart-label>
+                                    <snipcart-input name="phone">
+                                    </snipcart-input>
+                                </div>
+                            </address-fields>
+                        </div>
+                       
+                        <nav class="navbar navbar-default" id="mainNav">
+                            
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <div class="logo">
+                                    <a class="navbar-brand js-scroll-trigger logo-header" href="#">
+                                        <img src="/images/logo1.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="navbar" class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="active"><a href="#banner">Acceuil</a></li>
+                                    <li><a href="#about">À propos</a></li>
+                                    <li><a href="#gallery">Gallerie</a></li>
+                                    <li><a href="#menu">Carte</a></li>
+                                    
+                                    
+                                    <!-- <li><a href="#our_team">Team</a></li> -->
+                                    
+                                    <!-- <li><a href="#blog">Blog</a></li>
+                                    <li><a href="#pricing">pricing</a></li>
+                                    <li><a href="#reservation">Reservaion</a></li> -->
+                                    <li><a href="#footer">Contact</a></li>
+                                    <li>
+                                       
+                                            <a class="checkout snipcart-checkout">
+                                              <svg width="27" height="25" viewBox="0 0 31 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.10512 0.368718C0.560256 0.368718 0.118164 0.812066 0.118164 1.35848C0.118164 1.9049 0.560256 2.34824 1.10512 2.34824H4.90887L8.30138 18.4009C8.43503 19.0053 8.83085 19.5079 9.32946 19.5041H25.7788C26.3005 19.5118 26.7799 19.0375 26.7799 18.5143C26.7799 17.9911 26.3006 17.5168 25.7788 17.5245H10.1315L9.71003 15.545H27.095C27.5371 15.5412 27.9547 15.2048 28.0511 14.7718L30.354 4.87412C30.4825 4.29933 29.9852 3.67172 29.3979 3.66786H7.21171L6.6771 1.15221C6.58329 0.71276 6.15921 0.368652 5.7107 0.368652L1.10512 0.368718ZM7.623 5.64746H12.7634L13.2569 8.61674H8.25005L7.623 5.64746ZM14.7785 5.64746H20.9881L20.4946 8.61674H15.2719L14.7785 5.64746ZM23.0031 5.64746H28.1537L27.4649 8.61674H22.5097L23.0031 5.64746ZM8.67181 10.5963H13.5862L14.0797 13.5656H9.29919L8.67181 10.5963ZM15.6009 10.5963H20.1656L19.6721 13.5656H16.0944L15.6009 10.5963ZM22.1807 10.5963H27.0023L26.3135 13.5656H21.6872L22.1807 10.5963ZM12.6197 20.164C10.8141 20.164 9.32979 21.6525 9.32979 23.4632C9.32979 25.2739 10.8141 26.7624 12.6197 26.7624C14.4252 26.7624 15.9095 25.2739 15.9095 23.4632C15.9095 21.6525 14.4252 20.164 12.6197 20.164ZM22.4892 20.164C20.6837 20.164 19.1994 21.6525 19.1994 23.4632C19.1994 25.2739 20.6837 26.7624 22.4892 26.7624C24.2948 26.7624 25.7791 25.2739 25.7791 23.4632C25.7791 21.6525 24.2948 20.164 22.4892 20.164ZM12.6197 22.1435C13.3586 22.1435 13.9356 22.7222 13.9356 23.4632C13.9356 24.2042 13.3586 24.7829 12.6197 24.7829C11.8807 24.7829 11.3037 24.2042 11.3037 23.4632C11.3037 22.7222 11.8807 22.1435 12.6197 22.1435ZM22.4892 22.1435C23.2282 22.1435 23.8052 22.7222 23.8052 23.4632C23.8052 24.2042 23.2282 24.7829 22.4892 24.7829C21.7503 24.7829 21.1733 24.2042 21.1733 23.4632C21.1733 22.7222 21.7503 22.1435 22.4892 22.1435Z" fill="#9094FF" class="header__checkout-fill"></path>
+                                              </svg>
+                                                <!-- <i class="fa fa-shopping-cart  fa-1x"></i> -->
+                                                <!-- (<span class="snipcart-items-count"></span>) -->
+                                                <span class="snipcart-total-price" >€0.00</span>
+                                                
+                                        </a>
+                                        
+                                       
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- end nav-collapse -->
+                            
+                        </nav>
+                        <!-- end navbar -->
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container-fluid -->
+        </header>
+        <!-- end header -->
+
+    </div>
+    <!-- end site-header -->
+   
+    <div class="about-main2 pad-top-90 pad-bottom-90">
+        
+    </div>
+
+
+    <div id="about" class="about-main pad-top-90 pad-bottom-90">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title text-center"> CONDITIONS GENERALES DE VENTE EN LIGNE</h2>
+                        
+                        <p>La présente Charte s’applique à la fois aux CGV et aux CGU du Site.
+
+                            Dans le cadre de cette Charte, à moins que le contexte impose une définition différente, les mots et expressions suivants, qu’ils soient au singulier ou pluriel, auront le sens établi ci-dessous :
+                            
+                            Bombay Nan Grill  désigne Bombay Nan Grill est géré par M. Ferdous Khan sous la forme d’une SAS dont le siège social est au 7 rue Lavoisier, 31700 Blagnac, immatriculé à Toulouse RCS B 819 291 857 , Siret : 819 291 857 000 12</p>
+                    </div>
+                
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        
+                    <p> CGU​  désignent les conditions générales d’utilisation du Site, accessibles
+                        www.bombay-nan-grill.fr    </p>
+                        <p>CGV​  désignent les conditions générales de vente du Site, accessibles 
+                            www.bombay-nan-grill.fr</p>
+                            <p>Charte​ désigne la présente charte sur la protection des données personnelles et engagements de confidentialité et de sécurité.</p>
+                            
+                            <p>CNIL​ désigne la Commission Nationale de l’Informatique et des Libertés.</p>
+                            <p>Données Personnelles​ désignent les informations nominatives de l’Utilisateur.</p>
+                            <p>Bombay Nan Grill​  désigne le groupe d’entreprises au sens de l’article 4.19 du RGPD qui exerce le contrôle de Bombay Nan Grill et les entreprises qu’elle contrôle.</p>
+                            <p>RGPD​ désigne Règlement général sur la protection des données 2016/679 du 27 avril 2016. </p>
+                            <p> Site​ désigne le site accessible à l’adresse https://www.bombay-nan-grill.fr/ </p>
+                            <p>Traitements​ désignent collectivement à la gestion, la collecte, la protection et la conservation des Données Personnelles de l’Utilisateur.</p>
+                            <p>Utilisateur​ désigne l’utilisateur du Site, qu’il soit client ou un simple visiteur du Site.</p>
+                            <p>BOMBAY NAN GRILL a mis en place la présente Charte afin que l’Utilisateur puisse communiquer ses Données Personnelles dans le respect d’une politique stricte de confidentialité et de sécurité par laquelle BOMBAY NAN GRILL s’engage à protéger sa vie privée et à gérer ses Données Personnelles de manière loyale et transparente.</p>
+                    
+                        </div>
+                
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        
+                        <h4> 1.Responsable de traitement</h4>
+                        <p>Afin de veiller à la bonne application de ses engagements en tant que responsable de traitement des Données Personnelles collectées sur le Site conformément au RGPD et à la Loi Informatique & Libertés dans sa dernière version en vigueur, BOMBAY NAN GRILL a désigné un délégué à la protection des données en charge de l’information et du conseil en matière de protection des Données Personnelles qui peut être contacté par email à : contact@bombay-nan-grill.fr</p>
+                        <h4>2. Catégorie de Données Personnelles collectées</h4>
+                        <p>BOMBAY NAN GRILL informe l’Utilisateur qu’il peut collecter ou obtenir les Données Personnelles communiquées par l’Utilisateur lors de sa commande sur le Site (par exemple, par le biais d’un formulaire sur le Site) ou si ses Données Personnelles sont accessibles au public.</p>
+                        <p>BOMBAY NAN GRILL peut également collecter ou obtenir des Données Personnelles de l’Utilisateur en notant ou déduisant ces données de sa façon d’interagir directement avec BOMBAY NAN GRILL ou indirectement par l’intermédiaire d’autres personnes 1 (par exemple, des partenaires, co-responsables de traitements ou sous-traitants, qui pourraient participer à des opérations de collecte de Données Personnelles au nom et pour le compte de Bombay Nan Grill).</p>
+                        <p>Les Données Personnelles collectées ou obtenues par BOMBAY NAN GRILL sur le Site peuvent être : civilité, nom, prénom, adresse e-mail, numéro de téléphone, adresse postale, mode de paiement, nombre de personnes au sein du foyer.</p>
+                    </div>
+
+
+                            <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                                <h4>3.Nature et finalité du Traitement</h4>
+                                
+                                <p>BOMBAY NAN GRILL utilisera les Données Personnelles pour le traitement de la commande de l’Utilisateur, la gestion de son fichier « clients », et adresser des offres commerciales et/ou promotionnelles à l’Utilisateur.
+
+                                    Les données indispensables à BOMBAY NAN GRILL sont signalées par un astérisque dans le formulaire de commande. A défaut de mention de ces données obligatoires, la commande de l’Utilisateur ne pourra pas être validée. Les autres informations dont la fourniture est facultative sont destinées à mieux connaître l’Utilisateur afin d’améliorer les services qui lui sont proposés.</p>
+
+                                    <p>L’absence de renseignement de ces données facultatives n’empêchera pas la validation de la commande par l’Utilisateur.
+
+                                        Si l’Utilisateur ne souhaite plus recevoir des offres commerciales et/ou promotionnelles de la part de BOMBAY NAN GRILL, il peut se désinscrire en envoyant un email à contact@bombay-nan-grill.fr</p>
+                                
+                                        <h4>4. Protection de la vie privée des enfants</h4>
+                                        <p>BOMBAY NAN GRILL comprend l’importance de protéger la vie privée des enfants, en particulier dans un environnement numérique. A ce titre, le Site n’est pas conçu pour ou destiné à être utilisé par des enfants de moins de 16 ans. La politique de BOMBAY NAN GRILL est de ne jamais collecter ou conserver en connaissance de cause des informations sur toute personne de moins de 16 ans.</p>
+                            
+                                        <h4>5.Destinataires des Données Personnelles</h4>
+                                        <p>En fonction d’une ou plusieurs finalités de Traitement, BOMBAY NAN GRILL sera amenée à communiquer tout ou partie des Données Personnelles au developpeur David bailly Freelance.
+
+                                            BOMBAY NAN GRILL pourra être également conduite à communiquer des Données Personnelles dans le cas où une telle divulgation serait requise par la loi, une autorité administrative ou pour les besoins d’une procédure judiciaire.</p>
+                                 
+                                 
+                                 
+                                            <h4>6.Transfert des Données Personnelles</h4>
+                        
+                                            <p>L’Utilisateur est informé que ses Données Personnelles peuvent faire l’objet d’un transfert dans un pays autre que son pays de résidence, au sein de l’Union européenne.
+
+                                                L’Utilisateur accepte expressément que ses Données Personnelles soient stockées, traitées et transférées par BOMBAY NAN GRILL à David Bailly Freelance Lcdigitale. Lcdigitale pourra transférer les Données Personnelles dans un Etat non membre de l’Union européenne uniquement sous réserve (i) d’une décision d’adéquation constatées par la Commission Européenne ou (ii) de mesures de sauvegarde appropriées.
+                                                <br>
+                                                Lorsque l’Utilisateur a coché la case indiquant : « 
+                                                En cliquant sur le bouton « envoyer » ci-dessous, j’autorise le site « Bombay Nan Grill » à me contacter de façon personnalisée à propos de ses services pour améliorer mon expérience. Vos données personnelles ne seront jamais communiquées à des tiers. », ses Données Personnelles pourront être transmises à Lcdigitale. L’Utilisateur sera alors susceptible de recevoir des informations et des offres de BOMBAY NAN GRILL  via Email et/ou SMS.
+                                                
+                                                Si l’Utilisateur ne souhaite plus recevoir des informations et des offres de Bombay Nan Grill via Email et/ou SMS sa demande de désinscription peut être envoyée à contact@bombay-nan-grill.fr.</p>
+            
+                                                <h4>7.Sécurité des Données Personnelles</h4>
+                                                <p>BOMBAY NAN GRILL prend toutes les précautions nécessaires, notamment des mesures organisationnelles, techniques, logicielles et physiques en matière de sécurité du numérique pour protéger les Données Personnelles de l’Utilisateur contre toute perte, vol et soustraction frauduleuse, ainsi que contre tout accès, divulgation, altération ou destruction non autorisé des Données Personnelles.
+
+                                                    Toutefois, il est à signaler qu’Internet n’est pas complètement un environnement protégé et le Site ne peut pas garantir la sécurité de la transmission et du stockage des informations sur Internet. <br>
+                                                    
+                                                    BOMBAY NAN GRILL met en œuvre toutes les mesures utiles au regard de la nature des données collectées et des risques présentés par le Traitement, pour préserver la sécurité des Données Personnelles et, notamment, empêcher qu’elles soient déformées, endommagées, ou que des tiers non autorisés y aient accès.</p>
+                                       
+                                                    <h4>8. Les droits de l’Utilisateur</h4>
+                                                    <p>Conformément au droit national et européen, l’Utilisateur est en droit d’exercer les droits suivants auprès de BOMBAY NAN GRILL, qui effectue un Traitement de ses Données Personnelles : <br>
+
+                                                        ▪ d’être informé de l’existence et des finalités de tout Traitement de ses Données Personnelles <br>
+                                                        
+                                                        ▪ d’accéder à ses Données Personnelles et de demander leur rectification ou leur suppression ou encore une limitation du Traitement. <br>
+                                                        
+                                                        ▪ de s’opposer au Traitement de ses Données Personnelles ainsi que de demander leur portabilité. <br>
+                                                        
+                                                        ▪ de retirer, à tout moment, son consentement donné à BOMBAY NAN GRILL. <br>
+                                                        
+                                                        ▪ d’informer rapidement le délégué à la protection des données de toute perte ou soustraction frauduleuse (traitement illégal) de ses Données Personnelles. <br>
+                                                        
+                                                        Pour l’exercice de ces droits personnels, l’Utilisateur peut adresser une demande par courrier électronique à contact@bombay-nan-grill.fr, conformément à la présente Charte sur la protection des données personnelles.
+                                                        
+                                                        L’Utilisateur est informé de l’existence de la liste d’opposition au démarchage téléphonique « Bloctel », sur laquelle il peut s’inscrire ici: https://conso.bloctel.fr/
+                                                        
+                                                        En cas d’insatisfaction relative à la manière dont BOMBAY NAN GRILL a géré les Données Personnelles ou pour toute question ou requête soulevée auprès du contact@bombay-nan-grill.fr  et qui serait restée infructueuse, l’Utilisateur est en droit d’introduire une réclamation auprès de la CNIL.
+                                                        
+                                                        L’Utilisateur a aussi la possibilité de contacter le contact@bombay-nan-grill.fr afin d’être redirigé vers la CNIL ou pour toute question ou préoccupation concernant les questions de vie privée ou la gestion des données personnelles le concernant.</p>
+                                                        
+
+                                                        <h4>9.Durée de conservation des Données Personnelles</h4>
+                                                        <p>Les Données Personnelles de l’Utilisateur seront conservées par BOMBAY NAN GRILL pendant la plus longue période parmi les suivantes : (i) la période nécessaire pour la réalisation des opérations ci-après : (a) l’envoi des informations et des offres de Bombay Nan Grill via Email and/or SMS, (b) l’enregistrement des commandes,<br> (c) la livraison des commandes et (d) le retrait des commandes ; (ii) toute période de conservation imposée par la loi ; ou (iii) à la fin de la période de prescription applicable à la suite d’un litige ou d’une enquête qui pourrait survenir dans le cadre des opérations concernées, sauf demande préalable de suppression envoyée à contact@bombay-nan-grill.fr.
+
+                                                            A l’expiration de la période considérée, les Données Personnelles communiquées par l’Utilisateur seront détruites, conformément à la règlementation applicable.</p>
+                                                
+                                                            <h4>10.Evolution de la Charte</h4>
+                                                
+                                                            <p> BOMBAY NAN GRILL se réserve le droit d’apporter, à tout moment, toute modification ou mise à jour de la présente Charte (en raison notamment de l’évolution législative et/ou réglementaire). <br>
+
+                                                                Si une modification ou une mise à jour est apportée à la Charte, BOMBAY NAN GRILL s’engage à publier la nouvelle version sur son Site. BOMBAY NAN GRILL informera les Utilisateurs de la modification de cette Charte en modifiant la date de révision en haut à gauche de la présente page. <br>
+                                                                
+                                                                 <b> Date de modification du site 24/11/2020 par David Bailly Développeur Freelance Lcdigitale</b> </p>
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                    </div>
+                        
+                    </div>
+
+                
+                
+                
+                
+                </div>
+                <!-- end col -->
+              
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+
+
+
+
+        <div id="footer" class="footer-main">
+        
+            <!-- end footer-news -->
+            <div class="footer-box pad-top-70">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-in-main">
+                            <div class="footer-logo">
+                                <div class="text-center">
+                                    <img src="/images/logo1.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="footer-box-a">
+                                    <h3>À propos de Nous</h3>
+                                    <p>Chez Bombay Nan Grill nous proposons une restauration rapide et succulente, sur place, à emporter ou en livraison. Nous préparons avec soin chacun de nos plats afin de vous garantir une qualité irréprochable. Vous pourrez ainsi déguster des Nan (cuit au four tandoori), Kebab, Tacos, Burger, Paninis, Sandwich & Assiette.</p>
+                                    <ul class="socials-box footer-socials pull-left">
+                                        <li>
+                                            <a href="#">
+                                                <div class="social-circle-border"><i class="fa  fa-facebook"></i></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="social-circle-border"><i class="fa fa-twitter"></i></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="social-circle-border"><i class="fa fa-google-plus"></i></div>
+                                            </a>
+                                        </li>
+                                       
+                                    </ul>
+    
+                                </div>
+                                <!-- end footer-box-a -->
+                            </div>
+                            <!-- end col -->
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="footer-box-b">
+                                    <h3>New Menu</h3>
+                                    <ul>
+                                        <li><a href="#">Italian Bomba Sandwich</a></li>
+                                        <li><a href="#">Double Dose of Pork Belly</a></li>
+                                        <li><a href="#">Spicy Thai Noodles</a></li>
+                                        <li><a href="#">Triple Truffle Trotters</a></li>
+                                    </ul>
+                                </div>
+                                <!-- end footer-box-b -->
+                            </div>
+                            <!-- end col -->
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="footer-box-c">
+                                    <h3>Contactez-Nous</h3>
+                                    <p>
+                                        <i class="fa fa-map-signs" aria-hidden="true"></i>
+                                        <span>7 Rue de Lavoisier 31700 Blagnac</span>
+                                    </p>
+                                    <p>
+                                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                                        <span>
+                                            05 61 49 01 21
+                                    </span>
+                                    </p>
+                                    <p>
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <span><a href="#">bombaynangrill@yahoo.fr</a></span>
+                                    </p>
+                                </div>
+                                <!-- end footer-box-c -->
+                            </div>
+                            <!-- end col -->
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="footer-box-d">
+                                    <h3> Horaires d’ouvertures</h3>
+    
+                                    <ul>
+                                        <li>
+                                            <p>Lundi - Samedi </p>
+                                            <span> 11:00 AM - 22:30 PM</span>
+                                        </li>
+                                        <li>
+                                            <p> Dimanche </p>
+                                            <span>  18:00 PM - 23:00 PM</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- end footer-box-d -->
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end footer-in-main -->
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- end container -->
+                <div id="copyright" class="copyright-main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <h6 class="copy-title"> Copyright &copy; 2020 Bombay Food is powered by Lcdigitale.io <a href="#" target="_blank"></a> </h6>
+                               <a href="cookie.html">Cookies -</a>
+                               
+                               <a href="cookie.html">Mentions légales -</a>
+                               <a href="cookie.html">Politique de Confidentialité -</a>
+                               <a href="cgv.html">CGV -</a>
+                               <a href="cgu.html">CGU </a>
+                            </div>
+                        </div>
+                        <!-- end row -->
+                    </div>
+                    <!-- end container -->
+                </div>
+                <!-- end copyright-main -->
+            </div>
+            <!-- end footer-box -->
+        </div>
+        <!-- end footer-main -->
+    
+        <a href="#" class="scrollup" style="display: none;">Scroll</a>
+    
+        <section id="color-panel" class="close-color-panel">
+            <!-- <a class="panel-button gray2"><i class="fa fa-cog fa-spin fa-2x"></i></a> -->
+            <!-- Colors -->
+            <!-- <div class="segment">
+                <h4 class="gray2 normal no-padding">Color Scheme</h4>
+                <a title="orange" class="switcher orange-bg"></a>
+                <a title="strong-blue" class="switcher strong-blue-bg"></a>
+                <a title="moderate-green" class="switcher moderate-green-bg"></a>
+                <a title="vivid-yellow" class="switcher vivid-yellow-bg"></a>
+            </div> -->
+        </section>
+    
+        <!-- ALL JS FILES -->
+        <script src="/js/all.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <!-- ALL PLUGINS -->
+        <script src="/js/custom.js"></script>
+    
+        <!-- <script async src="https://cdn.snipcart.com/themes/v3.0.24/default/snipcart.js"></script> -->
+        <script async src="https://cdn.snipcart.com/themes/v3.0.25/default/snipcart.js"></script>
+        <!-- cookie -->
+        <script type="text/javascript" src="//cookie.eurowebpage.com/cookie.js?skin=cookielaw2&amp;position=bottom_left&amp;animation=shake2&amp;morelink=cookie.html&amp;learnmore=plus%20d'information"></script>
+        <!-- <script>
+            const button = document.querySelector('#starry-night')
+            const quantity = document.querySelector('#quantity')
+            quantity.addEventListener('change', () => {
+              // Sets the default quantity when adding the item
+              button.setAttribute('data-item-quantity', quantity.value)
+            })
+            const select = document.querySelector('#frame_color')
+            select.addEventListener('change', () => {
+              // Sets the default frame color when adding the item
+              button.setAttribute("data-item-custom1-value", select.value)
+            })
+            </script>
+        -->
+       
+    </body>
+    
+    </html>
