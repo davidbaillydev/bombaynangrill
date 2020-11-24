@@ -394,46 +394,6 @@ html, body{ height: 100%; }
 	min-height:100%;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .banner{
-        background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-        background-attachment:fixed;
-        background-size:cover;
-        height:100vh;
-        min-height:100%;
-    }
-    }
-
-    @media only screen and (min-width : 321px) {
-        .banner{
-            background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-            background-attachment:fixed;
-            background-size:cover;
-            height:100vh;
-            min-height:100%;
-        }
-        }
-
-        @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-            .banner{
-                background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-                background-attachment:fixed;
-                background-size:cover;
-                height:100vh;
-                min-height:100%;
-            }
-            }
-
-            @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-                .banner{
-                    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-                    background-attachment:fixed;
-                    background-size:cover;
-                    height:100vh;
-                    min-height:100%;
-                }
-                }
-
 .banner .container, .banner .banner-static, .banner .col-lg-12 {
     height: 100%;
 }
