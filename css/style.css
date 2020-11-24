@@ -394,52 +394,6 @@ html, body{ height: 100%; }
 	min-height:100%;
 }
 
-@media (max-width: 575.98px) { 
-	.banner{
-		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-		background-attachment:fixed;
-		background-size:cover;
-		height:100vh;
-		min-height:100%;
-	}
- }
-
-@media (min-width: 576px) and (max-width: 767.98px) { 
-	.banner{
-		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-		background-attachment:fixed;
-		background-size:cover;
-		height:100vh;
-		min-height:100%;
-	}
-}
-
-
-@media (min-width: 768px) and (max-width: 991.98px) { .banner{
-	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-	background-attachment:fixed;
-	background-size:cover;
-	height:100vh;
-	min-height:100%;
-} }
-
-
-@media (min-width: 992px) and (max-width: 1199.98px) { .banner{
-	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-	background-attachment:fixed;
-	background-size:cover;
-	height:100vh;
-	min-height:100%;
-} }
-
-
-@media (min-width: 1200px) {  .banner{
-	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-	background-attachment:fixed;
-	background-size:cover;
-	height:100vh;
-	min-height:100%;
-} }
 
 
 .banner .container, .banner .banner-static, .banner .col-lg-12  {
