@@ -9,116 +9,6 @@
 
 
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-	.banner{
-		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-		background-attachment:fixed;
-		background-size:cover;
-		height:100vh;
-		min-height:100%;
-	}
-	
-  }
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-	.banner{
-		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-		background-attachment:fixed;
-		background-size:cover;
-		height:100vh;
-		min-height:100%;
-	}
-	
-  }
-  
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-	.banner{
-		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-		background-attachment:fixed;
-		background-size:cover;
-		height:100vh;
-		min-height:100%;
-	}
-	
-}
-
-
-  /* Portrait and Landscape */
-@media only screen 
-and (min-device-width: 768px) 
-and (max-device-width: 1024px) 
-and (-webkit-min-device-pixel-ratio: 1) {
-	.banner{
-		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-		background-attachment:fixed;
-		background-size:cover;
-		height:100vh;
-		min-height:100%;
-	}
-	
-}
-
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-	.banner{
-		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-		background-attachment:fixed;
-		background-size:cover;
-		height:100vh;
-		min-height:100%;
-	}
-	
-  } 
-  
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-	.banner{
-		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-		background-attachment:fixed;
-		background-size:cover;
-		height:100vh;
-		min-height:100%;
-	}
-	
-  }
-
-  /* ----------- Non-Retina Screens ----------- */
-@media screen 
-and (min-device-width: 1200px) 
-and (max-device-width: 1600px) 
-and (-webkit-min-device-pixel-ratio: 1) { 
-	.banner{
-		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-		background-attachment:fixed;
-		background-size:cover;
-		height:100vh;
-		min-height:100%;
-	}
-	
-}
-
-/* ----------- Retina Screens ----------- */
-@media screen 
-and (min-device-width: 1200px) 
-and (max-device-width: 1600px) 
-and (-webkit-min-device-pixel-ratio: 2)
-and (min-resolution: 192dpi) { 
-	.banner{
-		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-		background-attachment:fixed;
-		background-size:cover;
-		height:100vh;
-		min-height:100%;
-	}
-	
-}
 
 @media (max-width: 1310px) {}
 
@@ -184,13 +74,6 @@ and (min-resolution: 192dpi) {
 	}
 }
 @media (max-width: 1120px) {
-	.banner{
-		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-		background-attachment:fixed;
-		background-size:cover;
-		height:100vh;
-		min-height:100%;
-	}
 	
 	.main-menu nav li a{
 		margin: 0px 10px;
@@ -211,13 +94,6 @@ and (min-resolution: 192dpi) {
 	}
 }
 @media (max-width: 992px) {
-	.banner{
-		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-		background-attachment:fixed;
-		background-size:cover;
-		height:100vh;
-		min-height:100%;
-	}
 	
 	.banner-text h1{
 		font-size: 50px;
@@ -282,13 +158,6 @@ and (min-resolution: 192dpi) {
 }  
 
 @media(max-width: 1000px){
-	.banner{
-		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-		background-attachment:fixed;
-		background-size:cover;
-		height:100vh;
-		min-height:100%;
-	}
 	
 }
 
@@ -362,14 +231,7 @@ and (min-resolution: 192dpi) {
 }
 
 @media (min-width: 768px) {
-	.banner{
-		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-		background-attachment:fixed;
-		background-size:cover;
-		height:100vh;
-		min-height:100%;
-	}
-	
+
 .gal-container .modal-dialog {
     width: 55%;
     margin: 50 auto;
@@ -397,13 +259,7 @@ and (min-resolution: 192dpi) {
 }
 
 @media (max-width: 768px) {
-	.banner{
-		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-		background-attachment:fixed;
-		background-size:cover;
-		height:100vh;
-		min-height:100%;
-	}
+	
 	
 	.main-menu nav li a{
 		padding: 15px 0px;
@@ -536,23 +392,10 @@ and (min-resolution: 192dpi) {
 	}
 }
 @media (max-width: 600px) {
-	.banner{
-		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-		background-attachment:fixed;
-		background-size:cover;
-		height:100vh;
-		min-height:100%;
-	}
+	
 	
 }
 @media (max-width: 480px) {
-	.banner{
-		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-		background-attachment:fixed;
-		background-size:cover;
-		height:100vh;
-		min-height:100%;
-	}
 	
 	.offer-item img{
 		width: 50%;
