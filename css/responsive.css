@@ -10,14 +10,7 @@
 @media (max-width: 1310px) {}
 @media (max-width: 1200px) {
 	 
-	.banner{
-		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-		background-attachment:fixed;
-		background-size:cover;
-		height:100vh;
-		min-height:100%;
-	}
-
+	
 	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
 		background-color: transparent;
 	}
@@ -95,15 +88,6 @@
 	}
 }
 @media (max-width: 992px) {
-
-	.banner{
-		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-		background-attachment:fixed;
-		background-size:cover;
-		height:100vh;
-		min-height:100%;
-	}
-
 	.banner-text h1{
 		font-size: 50px;
 	}
@@ -240,14 +224,6 @@
 }
 
 @media (min-width: 768px) {
-
-	.banner{
-		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-		background-attachment:fixed;
-		background-size:cover;
-		height:100vh;
-		min-height:100%;
-	}
 .gal-container .modal-dialog {
     width: 55%;
     margin: 50 auto;
@@ -406,22 +382,9 @@
 	}
 }
 @media (max-width: 600px) {
-	.banner{
-		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-		background-attachment:fixed;
-		background-size:cover;
-		height:100vh;
-		min-height:100%;
-	}
+	
 }
 @media (max-width: 480px) {
-	.banner{
-		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home.png) no-repeat center top;
-		background-attachment:fixed;
-		background-size:cover;
-		height:100vh;
-		min-height:100%;
-	}
 	.offer-item img{
 		width: 50%;
 	}
