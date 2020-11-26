@@ -18,7 +18,7 @@
 		background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/home2.png) no-repeat center top;
 		background-size: cover;
 		background-attachment:fixed;
-		background-size: cover;
+		
 		height:auto;
 		min-height: auto;
 	}
