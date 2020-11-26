@@ -19,8 +19,8 @@
 		background-size: cover;
 		background-attachment:fixed;
 		background-size: cover;
-		height:100vh;
-		min-height:100%;
+		height:auto;
+		min-height: auto;
 	}
 }
 
