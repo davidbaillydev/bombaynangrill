@@ -430,32 +430,3 @@
 }
 
 
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-	.special-menu{
-		background:url(../images/kebab2.jpg) no-repeat center;
-		background-attachment:fixed;
-		background-size:cover;
-		position:relative;
-	}
-	
-}
-
-
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-	.special-menu{
-		background:url(../images/kebab2.jpg) no-repeat center;
-		background-attachment:fixed;
-		background-size:cover;
-		position:relative;
-	}
-}
-
