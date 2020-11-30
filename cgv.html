@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang=fr>
+
+<head>
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+
+    <!-- Site Metas -->
+    <title>Bombay Nan Grill - One page HTML Responsive</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+   
+   <link rel="stylesheet" href="/css/menu.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="/css/responsive.css">
+    <!-- color -->
+    <link id="changeable-colors" rel="stylesheet" href="/css/colors/orange.css" />
+
+    <!-- Modernizer -->
+    <script src="/js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- Snipcart stylesheet -->
+  <link rel="preconnect" href="https://app.snipcart.com">
+<link rel="preconnect" href="https://cdn.snipcart.com">
+
+
+<link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.25/default/snipcart.css" />
+
+
+
+</head>
+
+<body>
+    <div id="loader">
+        <div id="status"></div>
+    </div>
+    <div id="site-header">
+        <header id="header" class="header-block-top">
+            <div class="container">
+                <div class="row">
+                    <div class="main-menu">
+                        <!-- navbar -->
+                        <div hidden id="snipcart" data-api-key="ZTlmZDg0MGQtZDQ3YS00ODQzLWI4MGMtMmViZWJlNDgyZDVlNjM3Mzc1OTU1MTM0MzQ0MDgy" data-currency="eur">
+                            <address-fields section="top">
+                                <div>
+                                    <snipcart-label for="phone">
+                                        Phone numbers
+                                    </snipcart-label>
+                                    <snipcart-input name="phone">
+                                    </snipcart-input>
+                                </div>
+                            </address-fields>
+                        </div>
+                       
+                        <nav class="navbar navbar-default" id="mainNav">
+                            
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <div class="logo">
+                                    <a class="navbar-brand js-scroll-trigger logo-header" href="index.html">
+                                        <img src="/images/logo1.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="navbar" class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="active"><a href="index.html">Acceuil</a></li>
+                                    <li><a href="#about">À propos</a></li>
+                                    <li><a href="#gallery">Gallerie</a></li>
+                                    <li><a href="#menu">Carte</a></li>
+                                    
+                                    
+                                    <!-- <li><a href="#our_team">Team</a></li> -->
+                                    
+                                    <!-- <li><a href="#blog">Blog</a></li>
+                                    <li><a href="#pricing">pricing</a></li>
+                                    <li><a href="#reservation">Reservaion</a></li> -->
+                                    <li><a href="#footer">Contact</a></li>
+                                    <li>
+                                       
+                                            <a class="checkout snipcart-checkout">
+                                              <svg width="27" height="25" viewBox="0 0 31 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.10512 0.368718C0.560256 0.368718 0.118164 0.812066 0.118164 1.35848C0.118164 1.9049 0.560256 2.34824 1.10512 2.34824H4.90887L8.30138 18.4009C8.43503 19.0053 8.83085 19.5079 9.32946 19.5041H25.7788C26.3005 19.5118 26.7799 19.0375 26.7799 18.5143C26.7799 17.9911 26.3006 17.5168 25.7788 17.5245H10.1315L9.71003 15.545H27.095C27.5371 15.5412 27.9547 15.2048 28.0511 14.7718L30.354 4.87412C30.4825 4.29933 29.9852 3.67172 29.3979 3.66786H7.21171L6.6771 1.15221C6.58329 0.71276 6.15921 0.368652 5.7107 0.368652L1.10512 0.368718ZM7.623 5.64746H12.7634L13.2569 8.61674H8.25005L7.623 5.64746ZM14.7785 5.64746H20.9881L20.4946 8.61674H15.2719L14.7785 5.64746ZM23.0031 5.64746H28.1537L27.4649 8.61674H22.5097L23.0031 5.64746ZM8.67181 10.5963H13.5862L14.0797 13.5656H9.29919L8.67181 10.5963ZM15.6009 10.5963H20.1656L19.6721 13.5656H16.0944L15.6009 10.5963ZM22.1807 10.5963H27.0023L26.3135 13.5656H21.6872L22.1807 10.5963ZM12.6197 20.164C10.8141 20.164 9.32979 21.6525 9.32979 23.4632C9.32979 25.2739 10.8141 26.7624 12.6197 26.7624C14.4252 26.7624 15.9095 25.2739 15.9095 23.4632C15.9095 21.6525 14.4252 20.164 12.6197 20.164ZM22.4892 20.164C20.6837 20.164 19.1994 21.6525 19.1994 23.4632C19.1994 25.2739 20.6837 26.7624 22.4892 26.7624C24.2948 26.7624 25.7791 25.2739 25.7791 23.4632C25.7791 21.6525 24.2948 20.164 22.4892 20.164ZM12.6197 22.1435C13.3586 22.1435 13.9356 22.7222 13.9356 23.4632C13.9356 24.2042 13.3586 24.7829 12.6197 24.7829C11.8807 24.7829 11.3037 24.2042 11.3037 23.4632C11.3037 22.7222 11.8807 22.1435 12.6197 22.1435ZM22.4892 22.1435C23.2282 22.1435 23.8052 22.7222 23.8052 23.4632C23.8052 24.2042 23.2282 24.7829 22.4892 24.7829C21.7503 24.7829 21.1733 24.2042 21.1733 23.4632C21.1733 22.7222 21.7503 22.1435 22.4892 22.1435Z" fill="#9094FF" class="header__checkout-fill"></path>
+                                              </svg>
+                                                <!-- <i class="fa fa-shopping-cart  fa-1x"></i> -->
+                                                <!-- (<span class="snipcart-items-count"></span>) -->
+                                                <span class="snipcart-total-price" >€0.00</span>
+                                                
+                                        </a>
+                                        
+                                       
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- end nav-collapse -->
+                            
+                        </nav>
+                        <!-- end navbar -->
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container-fluid -->
+        </header>
+        <!-- end header -->
+
+    </div>
+    <!-- end site-header -->
+   
+    <div class="about-main2 pad-top-90 pad-bottom-90">
+        
+    </div>
+
+
+    <div id="about" class="about-main pad-top-90 pad-bottom-90">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title text-center"> Conditions Générales De Vente</h2>
+                        
+                        <p>Les présentes CGV ont été générées gratuitement par la société de communication <a href="http://kinic.fr" target="_blank">Kinic</a> </p>
+                        <p>Bombay Nan Grill <br>
+                            Société SAS au capital de 1000 euros euros <br>
+                            Siège social 7 rue lavoisier 31700 blagnac ;  <br>
+                            N° de téléphone 05 61 49 01 20 ; <br>
+                            Adresse du courrier électronique kferdous12@yahoo.fr; <br>
+                            RCS (ou Répertoire des métiers) de RCS B 819 291 857 n°819 291 857 000 12 ; <br>
+                            TVA Intra-communautaire n°; <br>
+                            Le responsable de la publication personne physique est M. Ferdous Khan; </p>
+                   
+                    </div>
+                
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        
+                        
+                        <h1>Conditions générales de vente des produits vendus sur www.bombaynangrill.fr</h1>
+
+                        <h2>Date de dernière mise à jour 29/11/2020</h2>
+
+                        </div>
+                
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        
+                        <h2>Article 1 - Objet</h2>
+
+                        <p>Les présentes conditions régissent les ventes par la société Bombay Nan Grill 7 rue lavoisier 31700 blagnac de restauration.  </p> 
+
+                        <h2>Article 2 - Prix</h2>
+
+                       <p> Les prix de nos produits sont indiqués en euros toutes taxes comprises (TVA et autres taxes applicables au jour de la commande), sauf indication contraire et hors frais de traitement et d'expédition. </p> 
+
+                       <p> En cas de commande vers un pays autre que la France métropolitaine vous êtes l'importateur du ou des produits concernés. Des droits de douane ou autres taxes locales ou droits d'importation ou taxes d'état sont susceptibles d'être exigibles.
+                        Ces droits et sommes ne relèvent pas du ressort de la société <b>Bombay Nan Grill</b>. 
+                       Ils seront à votre charge et relèvent de votre entière responsabilité, tant en termes de déclarations que de paiements aux autorités et organismes compétents de votre pays.
+                        Nous vous conseillons de vous renseigner sur ces aspects auprès de vos autorités locales.    </p>    
+                        
+                        <p>Toutes les commandes quelle que soit leur origine sont payables en euros.  
+
+                            La société <b>Bombay Nan Grill</b> se réserve le droit de modifier ses prix à tout moment, mais le produit sera facturé sur la base du tarif en vigueur au moment de la validation de la commande et sous réserve de disponibilité. 
+                            
+                            Les produits demeurent la propriété de la société <b>Bombay Nan Grill</b> jusqu'au paiement complet du prix.  <br>
+                            
+                            Attention : dès que vous prenez possession physiquement des produits commandés, les risques de perte ou d'endommagement des produits vous sont transférés.</p>
+
+                    </div>
+
+
+                            <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                               
+                                                
+                                <h2>Article 3 - Commandes</h2>
+
+                                <b>Vous pouvez passer commande : </b>  
+                                
+                                <p>Sur Internet : <a href="www.bombaynangrill.fr">www.bombaynangrill.fr</a>
+                                
+                                    Les informations contractuelles sont présentées en langue française et feront l'objet d'une confirmation au plus tard au moment de la validation de votre commande.  
+                                    
+                                    La société <b>Bombay Nan Grill</b> se réserve le droit de ne pas enregistrer un paiement, et de ne pas confirmer une commande pour quelque raison que ce soit, et plus particulièrement en cas de problème d'approvisionnement, ou en cas de difficulté concernant la commande reçue. 
+                                      
+                                 </p>   
+                                 
+                                 
+                                 <h2>Article 4 - Validation de votre commande</h2>
+
+                                 <p> Toute commande figurant sur le site Internet <a href="www.bombaynangrill.fr">www.bombaynangrill.fr</a> suppose l'adhésion aux présentes Conditions Générales. Toute confirmation de commande entraîne votre adhésion pleine et entière aux présentes conditions générales de vente, sans exception ni réserve.  
+
+                                    L'ensemble des données fournies et la confirmation enregistrée vaudront preuve de la transaction. 
+                            
+                                    Vous déclarez en avoir parfaite connaissance.  
+                            
+                                    La confirmation de commande vaudra signature et acceptation des opérations effectuées.  
+                            
+                                    Un récapitulatif des informations de votre commande et des présentes Conditions Générales, vous sera communiqué en format PDF via l'adresse e-mail de confirmation de votre commande. 
+                            </p>
+
+
+                            <h2>Article 5 - Paiement</h2>
+
+                            <p>
+                                Le fait de valider votre commande implique pour vous l'obligation de payer le prix indiqué.  
+                                
+                                Le règlement de vos achats s'effectue par carte bancaire grâce au système sécurisé CB.
+                                
+                                Le débit de la carte n'est effectué qu'au moment de l'expédition de la commande. En cas de livraisons fractionnées, seuls les produits expédiés sont débités. </p>
+                                                
+                             
+                            
+                            
+                                <h2>Article 6 - Rétractation</h2>
+
+                               <p> les Produits objets de la Commande, étant des denrées périssables, Vous ne disposez pas d’un droit de rétractation. Vous n’avez donc pas la possibilité d’annuler la Commande après confirmation de celle-ci par le Restaurant.
+                                
+                                
+                                <b>EXCEPTIONS AU DROIT DE RETRACTATION</b>  
+                                
+                                Conformément aux dispositions de l'article L.121-21-8 du Code de la Consommation, le droit de rétractation ne s'applique pas à :  
+                                
+                                La fourniture de services pleinement exécutés avant la fin du délai de rétractation et dont l'exécution a commencé après accord préalable exprès du consommateur et renoncement exprès à son droit de rétractation.
+                                La fourniture de biens ou de services dont le prix dépend de fluctuations sur le marché financier échappant au contrôle du professionnel et susceptibles de se produire pendant le délai de rétractation.
+                                La fourniture de biens confectionnés selon les spécifications du consommateur ou nettement personnalisés.
+                                La fourniture de biens susceptibles de se détériorer ou de se périmer rapidement.
+                                La fourniture de biens qui ont été descellés par le consommateur après la livraison et qui ne peuvent être renvoyés pour des raisons d'hygiène ou de protection de la santé.
+                                La fourniture de biens qui, après avoir été livrés et de par leur nature, sont mélangés de manière indissociable avec d'autres articles ;
+                                La fourniture de boissons alcoolisées dont la livraison est différée au-delà de trente jours et dont la valeur convenue à la conclusion du contrat dépend de fluctuations sur le marché échappant au contrôle du professionnel.
+                                La fourniture d'enregistrements audio ou vidéo ou de logiciels informatiques lorsqu'ils ont été descellés par le consommateur après la livraison.
+                                La fourniture d'un journal, d'un périodique ou d'un magazine, sauf pour les contrats d'abonnement à ces publications.
+                                Les transactions conclues lors d'une enchère publique.
+                                La fourniture d'un contenu numérique non fourni sur un support matériel dont l'exécution a commencé après accord préalable exprès du consommateur et renoncement exprès à son droit de rétractation.
+                            </p>
+                            
+                            <h2>  Article 7- Disponibilité </h2>
+                           
+  
+                            <p>
+                                Nos produits sont proposés tant qu'ils sont visibles sur le site <a href="www.bombaynangrill.fr">www.bombaynangrill.fr</a> et dans la limite des stocks disponibles. Pour les produits non stockés, nos offres sont valables sous réserve de disponibilité chez nos fournisseurs.
+                                En cas d'indisponibilité de produit après passation de votre commande, nous vous en informerons par mail. Votre commande sera automatiquement annulée et aucun débit bancaire ne sera effectué.  
+
+                                En outre, le site Internet <a href="www.bombaynangrill.fr">www.bombaynangrill.fr</a> n'a pas vocation à vendre ses produits en quantités importantes. Par conséquent la société <b>Bombay Nan Grill</b> se réserve le droit de refuser les commandes de  articles identiques. 
+                            </p>
+                            
+                            
+                            <h2>Article 8 - Livraison</h2>
+
+     
+                            <p>
+                                Les produits sont livrés à l'adresse de livraison indiquée au cours du processus de commande, dans le délai indiqué sur la page de validation de la commande. 
+
+                                En cas de retard d'expédition, un mail vous sera adressé pour vous informer d'une éventuelle conséquence sur le délai de livraison qui vous a été indiqué.  
+
+                                Conformément aux dispositions légales, en cas de retard de livraison, vous bénéficiez de la possibilité d'annuler la commande dans les conditions et modalités définies à l'article L 138-2 du Code de la Consommation. Si entre temps vous recevez le produit nous procéderons à son remboursement et aux frais d'acheminement dans les conditions de l'article L 138-3 du Code de la Consommation. 
+
+                                En cas de livraisons par une transporteur, la société <b>Bombay Nan Grill</b> ne peut être tenue pour responsable de retard de livraison dû exclusivement à une indisponibilité du client après plusieurs propositions de rendez-vous. 
+                       
+                            </p>
+                            
+                            
+                            
+                            
+                            
+                            
+                            <h2>Article 9 - Garantie</h2>
+
+                                        <p>
+
+                                            Tous nos produits bénéficient de la garantie légale de conformité et de la garantie des vices cachés, prévues par les articles 1641 et suivants du Code civil. En cas de non-conformité d'un produit vendu, il pourra être retourné, échangé ou remboursé.  
+
+                                            Toutes les réclamations, demandes d'échange ou de remboursement doivent s'effectuer par Téléphone dans le délai de 30 jours de la livraison.  
+                
+                                            Les produits doivent nous être retournés dans l'état dans lequel vous les avez reçus avec l'ensemble des éléments (accessoires, emballage, notice...). Les frais d'envoi vous seront remboursés sur la base du tarif facturé et les frais de retour vous seront remboursés sur présentation des justificatifs. 
+                
+                                            Les dispositions de cet Article ne vous empêchent pas de bénéficier du droit de rétractation prévu à l'article 6. 
+                                                                        
+                                                                        
+                                 
+                                        </p>
+                            
+                            
+                                        <h2>Article 10 - Responsabilité</h2>
+
+                                        Les produits proposés sont conformes à la législation française en vigueur. La responsabilité de la société <b>Bombay Nan Grill</b> ne saurait être engagée en cas de non-respect de la législation du pays où le produit est livré. Il vous appartient de vérifier auprès des autorités locales les possibilités d'importation ou d'utilisation des produits ou services que vous envisagez de commander. 
+                                        
+                                        Par ailleurs, la société <b>Bombay Nan Grill</b> ne saurait être tenue pour responsable des dommages résultant d'une mauvaise utilisation du produit acheté. 
+                            
+                                        <h2>Article 11 - Droit applicable en cas de litiges</h2>
+
+                                          <p>  La langue du présent contrat est la langue française. Les présentes conditions de vente sont soumises à la loi française. En cas de litige, les tribunaux français seront les seuls compétents. 
+                                        </p>
+                           
+                           
+                                        <h2>Article 12 - Propriété intellectuelle</h2>
+
+                                            <p>
+                                                Tous les éléments du site <a href="www.bombaynangrill.fr">www.bombaynangrill.fr</a> sont et restent la propriété intellectuelle et exclusive de la société <b>Bombay Nan Grill</b>. Nul n'est autorisé à reproduire, exploiter, rediffuser, ou utiliser à quelque titre que ce soit, même partiellement, des éléments du site qu'ils soient logiciels, visuels ou sonores. Tout lien simple ou par hypertexte est strictement interdit sans un accord écrit exprès de la société <b>Bombay Nan Grill</b>.  
+              
+                                            </p>
+                           
+                           
+                                            <h2>Article 13 - Données personnelles</h2>
+                                            
+
+                                            <p>
+
+                                                La société <b>Bombay Nan Grill</b> se réserve le droit de collecter les informations nominatives et les données personnelles vous concernant. Elles sont nécessaires à la gestion de votre commande, ainsi qu'à l'amélioration des services et des informations que nous vous adressons.  
+
+                                                Elles peuvent aussi être transmises aux sociétés qui contribuent à ces relations, telles que celles chargées de l'exécution des services et commandes pour leur gestion, exécution, traitement et paiement.  
+
+                                                Ces informations et données sont également conservées à des fins de sécurité, afin de respecter les obligations légales et réglementaires.  
+
+                                                Conformément à la loi du 6 janvier 1978, vous disposez d'un droit d'accès, de rectification et d'opposition aux informations nominatives et aux données personnelles vous concernant, directement sur le site Internet. 
+
+
+                                            </p>
+
+
+
+
+                                            <h2>Article 14 - Archivage Preuve</h2>
+
+                                                <p>
+
+                                    La société <b>Bombay Nan Grill</b> archivera les bons de commandes et les factures sur un support fiable et durable constituant une copie fidèle conformément aux dispositions de l'article 1348 du Code civil.  
+
+                                    Les registres informatisés de la société <b>Bombay Nan Grill</b> seront considérés par toutes les parties concernées comme preuve des communications, commandes, paiements et transactions intervenus entre les parties.
+
+
+                                                </p>
+
+                                    </div>
+                        
+                    </div>
+
+                
+                
+                
+                
+                </div>
+                <!-- end col -->
+              
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+
+
+
+
+    <div id="footer" class="footer-main">
+        
+        <!-- end footer-news -->
+        <div class="footer-box pad-top-70">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-in-main">
+                        <div class="footer-logo">
+                            <div class="text-center">
+                                <img src="images/logo1.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-box-a">
+                                <h3>À propos de Nous</h3>
+                                <p>Chez Bombay Nan Grill nous proposons une restauration rapide,succulente,des plats fait maison à deguster sur place, à emporter ou en livraison. Nous préparons avec soin chacun de nos plats afin de vous garantir une qualité irréprochable. Vous pourrez ainsi déguster des Nan (cuit au four tandoori), Kebab, Tacos, Burger, Paninis, Sandwich & Assiette.</p>
+                                <ul class="socials-box footer-socials pull-left">
+                                    <li>
+                                        <a href="https://fr-fr.facebook.com/BOMBAYNANGRILL31700/" target="_blank">
+                                            <div class="social-circle-border"><i class="fa  fa-facebook"></i></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="social-circle-border"><i class="fa fa-instagram"></i></div>
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+
+                            </div>
+                            <!-- end footer-box-a -->
+                        </div>
+                        <!-- end col -->
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-box-b">
+                                <h3>La Carte</h3>
+                                <ul>
+                                    <li><a href="#tapas">Tapas</a></li>
+                                    <li><a href="#dish">Assiette</a></li>
+                                    <li><a href="#tacos">Tacos</a></li>
+                                    <li><a href="#hamburger">Hamburger</a></li>
+                                    <li><a href="#nan">Nan</a></li>
+                                    <li><a href="#paninis">Paninis</a></li>
+                                    <li><a href="#sandwich">Sandwich</a></li>
+                                    <li><a href="#kid">Menu Enfant</a></li>
+                                    <li><a href="#dessert">Dessert</a></li>
+                                    <li><a href="#lemonade">Boisson</a></li>
+                                    
+                                </ul>
+                            </div>
+                            <!-- end footer-box-b -->
+                        </div>
+                        <!-- end col -->
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-box-c">
+                                <h3>Contactez-Nous</h3>
+                                <p>
+                                    <i class="fa fa-map-signs" aria-hidden="true"></i>
+                                    <span>7 Rue de Lavoisier 31700 Blagnac</span>
+                                </p>
+                                <p>
+                                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                                    <span>
+                                        05 61 49 01 21
+								</span>
+                                </p>
+                                <p>
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <span><a href="#">bombaynangrill@yahoo.fr</a></span>
+                                </p>
+                            </div>
+                            <!-- end footer-box-c -->
+                        </div>
+                        <!-- end col -->
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-box-d">
+                                <h3> Horaires d’ouvertures</h3>
+
+                                <ul>
+                                    <li>
+                                        <p>Lundi - Samedi </p>
+                                        <span> 11:00 AM - 22:30 PM</span>
+                                    </li>
+                                    <li>
+                                        <p> Dimanche </p>
+                                        <span>  18:00 PM - 23:00 PM</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- end footer-box-d -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end footer-in-main -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+            <div id="copyright" class="copyright-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h6 class="copy-title"> Copyright &copy; 2020 Bombay Food is powered by Lcdigitale.io <a href="#" target="_blank"></a> </h6>
+                            <a href="cookie.html">Confidentialité et cookies -</a>
+                               
+                               <a href="mention.html">Mentions légales -</a>
+                               
+                               <a href="cgv.html">CGV </a>
+                              
+                        </div>
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- end container -->
+            </div>
+            <!-- end copyright-main -->
+        </div>
+        <!-- end footer-box -->
+    </div>
+    <!-- end footer-main -->
+
+    
+        <a href="#" class="scrollup" style="display: none;">Scroll</a>
+    
+        <section id="color-panel" class="close-color-panel">
+            <!-- <a class="panel-button gray2"><i class="fa fa-cog fa-spin fa-2x"></i></a> -->
+            <!-- Colors -->
+            <!-- <div class="segment">
+                <h4 class="gray2 normal no-padding">Color Scheme</h4>
+                <a title="orange" class="switcher orange-bg"></a>
+                <a title="strong-blue" class="switcher strong-blue-bg"></a>
+                <a title="moderate-green" class="switcher moderate-green-bg"></a>
+                <a title="vivid-yellow" class="switcher vivid-yellow-bg"></a>
+            </div> -->
+        </section>
+    
+        <!-- ALL JS FILES -->
+        <script src="/js/all.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <!-- ALL PLUGINS -->
+        <script src="/js/custom.js"></script>
+    
+        <!-- <script async src="https://cdn.snipcart.com/themes/v3.0.24/default/snipcart.js"></script> -->
+        <script async src="https://cdn.snipcart.com/themes/v3.0.25/default/snipcart.js"></script>
+        <!-- cookie -->
+        <script type="text/javascript" src="//cookie.eurowebpage.com/cookie.js?skin=cookielaw2&amp;position=bottom_left&amp;animation=shake2&amp;morelink=cookie.html&amp;learnmore=plus%20d'information"></script>
+        <!-- <script>
+            const button = document.querySelector('#starry-night')
+            const quantity = document.querySelector('#quantity')
+            quantity.addEventListener('change', () => {
+              // Sets the default quantity when adding the item
+              button.setAttribute('data-item-quantity', quantity.value)
+            })
+            const select = document.querySelector('#frame_color')
+            select.addEventListener('change', () => {
+              // Sets the default frame color when adding the item
+              button.setAttribute("data-item-custom1-value", select.value)
+            })
+            </script>
+        -->
+       
+    </body>
+    
+    </html>
