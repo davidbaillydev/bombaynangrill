@@ -673,7 +673,8 @@ html, body{ height: 100%; }
     SPECIAL-MENU AREA
 -------------------------------------------------------------------*/
 .special-menu{
-	background:url(../images/special_menu_bg.jpg) no-repeat center;
+    /* background:url(../images/special_menu_bg.jpg) no-repeat center; */
+    background:url(../images/gallery12.png) no-repeat center;
 	background-attachment:fixed;
 	background-size:cover;
 	position:relative;
@@ -1684,12 +1685,13 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     margin: 1px 0px;
     padding: 4px;
 }
-.footer-box {
-	background-image:-moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(..images/footer_background.jpg);
-	background-image:-webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(../images/footer_background.jpg);
-	background-image:radial-gradient(ellipse at center, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(../images/footer_background.jpg);
-	background-color:#111;background-position:center;background-repeat:no-repeat;background-size:cover
-	}
+
+    .footer-box {
+        background-image:-moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(..images/gallery11.jpg);
+        background-image:-webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(../images/gallery11.jpg);
+        background-image:radial-gradient(ellipse at center, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(../images/gallery11.jpg);
+        background-color:#111;background-position:center;background-repeat:no-repeat;background-size:cover
+        }
 .socials-box li {
     display: inline-block;
     opacity: 1;
