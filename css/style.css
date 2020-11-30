@@ -276,6 +276,7 @@ html, body{ height: 100%; }
 }
 
 .main-menu{}
+
 .header-block-top .navbar-brand {
     margin: 0 !important;
     padding: 15px 0 15px;
@@ -674,7 +675,7 @@ html, body{ height: 100%; }
     SPECIAL-MENU AREA
 -------------------------------------------------------------------*/
 .special-menu{
-    background:url(../images/special_menu_bg1.jpg) no-repeat center;
+    background:url(../images/kebab2.jpg) no-repeat center;
 	background-attachment:fixed;
 	background-size:cover;
 	position:relative;
