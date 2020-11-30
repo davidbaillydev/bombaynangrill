@@ -19,10 +19,7 @@
 		
 	}
 	
-	.special-menu{
-		background:url(../images/special_menu_bg1.jpg) no-repeat center;
-		
-	}
+	
 	
 }
 
@@ -276,7 +273,12 @@
 
 @media (max-width: 768px) {
 	
-	
+	.special-menu{
+		background:url(../images/special_menu_bg1.jpg) no-repeat center;
+		background-attachment:fixed;
+		background-size:cover;
+		position:relative;
+	}
 	.main-menu nav li a{
 		padding: 15px 0px;
 	}
@@ -299,6 +301,7 @@
 	}
 	.special-menu{
 		background-size: inherit;
+		
 	}
 	.banner-text h1 {
 		font-size: 50px;
